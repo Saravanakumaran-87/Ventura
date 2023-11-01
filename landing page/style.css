@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+/* credits : Zeliko Milivojevic UI/ UX Design */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+html{
+    background-color: white; 
+}
+
+body{
+    width:100%;
+    height:100%;
+    min-height: 100vh;
+}
+
+
+/* HEADER */
+
+#header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:30px 0px 0px 20px;
+  
+}
+
+#header .nav-left{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly ;
+    padding-left: 20px;
+    gap: 50px;
+}
+#header .nav-right{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly ;
+    padding-right: 80px;
+    gap: 30px;
+}
+#header .nav-left img{
+    width: 150px;
+}
+
+#header .nav-left ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+#header .nav-left ul li{
+    list-style: none;
+    
+}
+#header .nav-left ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    
+}
+#header .nav-right .watch-video{
+    padding: 8px;
+    border: none;
+    background: none;
+   cursor: pointer;
+   
+}
+#header .nav-right .watch-video:hover{
+    color: rgb(73, 73, 244) ;
+}
+#header .nav-right .Download-now{
+    padding: 8px 10px;
+    border: rgb(73, 73, 244) ;
+    border-radius: 5px;
+    background-color: rgb(73, 73, 244);
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+
+/* HERO SECTION */
+
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:30px 0px 20px 30px;  /*30px 0px 0px 20px*/
+    
+}
+
+.hero-section .hero-left{
+   display: flex;
+   flex-direction: column;
+   align-items:start;
+   justify-content: space-evenly;
+   gap: 20px;
+   width: 45%;
+}
+
+.hero-section .hero-right{
+      width: 50%;
+      
+      
+     
+}
+.hero-section .hero-right  img:first-of-type {
+    position: relative;
+    left: 95px;
+    top:-15px;
+    border-radius: 5px;
+}
+
+.hero-section .hero-left #hero-text {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+
+.hero-section .hero-left .Download-now{
+    padding: 8px 10px;
+    border: rgb(73, 73, 244) ;
+    border-radius: 5px;
+    background-color: rgb(73, 73, 244);
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.hero-section .hero-left .watch-video{
+    padding: 8px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.hero-section .hero-left .watch-video:hover{
+    
+        color: rgb(73, 73, 244) ;
+    
+}
+
+/* BRANDS */
+
+.brand{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 40px 0px 40px 0px;
+}
+
+/*Features*/
+
+.features{
+   text-align: center;
+   padding: 20px 0px 30px 0px;
+   
+}
+.features #features-p{
+    color: rgb(73, 73, 244);
+}
+.features h1{
+    padding-top: 20px;
+}
+.features .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:120px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.features .cards .card{
+    width:250px;
+    padding: 30px 0px 0px 0px;
+}
+
+/*choose*/
+
+.choose-us{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+    padding-top: 30px;
+   
+}
+.choose-us .choose-us-left{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   gap: 10px;
+   width: 45%;
+}
+
+.choose-us .choose-us-left p:first-of-type{
+    color:rgb(73, 73, 244);
+
+}
+.choose-us h2{
+    font-weight: 900;
+    font-size: 45px;
+
+}
+
+.choose-us .choose-us-left ul{
+    list-style-type:none;
+    position: relative;
+    left: 10px; 
+    letter-spacing: 1px;  
+}
+
+
+/*board*/
+
+.board{
+    margin-top:30px ;
+    margin-left:50px ;
+    margin-right:50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    background-color:rgb(73, 73, 244) ;
+    color: white;
+    padding:20px;
+    border-radius: 10px;
+}
+.board button{
+    padding: 8px;
+    border: none;
+    font-size: 16px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.board .watch-video:hover{
+    filter: drop-shadow(rgb(195, 186, 186) 0px 0px 3px);
+}
+
+/* footer */
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 0px 30px 0px;
+    gap:80px;
+}
+.footer .socialmedia{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.footer .socialmedia #logo{
+    width: 100px;
+}
+.footer #heading{
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.footer .socialmedia .icon{
+    display: flex;
+    gap:10px;
+}
+
+.footer ul {
+    list-style: none;
+    
+}
+.footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer .newsletter {
+   
+   display: flex;
+   flex-direction: column;
+   position: relative;
+
+   justify-content: space-evenly;
+   
+}
+.footer .newsletter input{
+    background-color: rgb(231, 231, 238);
+    padding:8px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    outline: none;
+    border:rgb(201, 201, 213);
+}
+
